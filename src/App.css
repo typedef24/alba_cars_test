@@ -1,0 +1,171 @@
+.AppContainer {
+  background-color: #000000;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  padding-right: 76px;
+  /* padding-bottom: 76px; */
+  padding-top: 118px;
+}
+
+@media (min-width: 1200px) {
+  
+}
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+
+.NavBar {
+  background: #000000;
+  height: 118px;
+  width: 100%;
+  position: fixed;
+}
+
+.SideNavBar {
+  width: 118px;
+  height: 100vh;
+  position: fixed;
+}
+
+.ContentDiv {
+  background-color: #191919;
+  border-radius: 9px;
+  width: calc(100% - 198px);
+  margin-left: 118px;
+  padding: 40px;
+  padding-top: 47px;
+}
+
+.Mechanical {
+  background-color: #3f3f3f;
+  border-radius: 9px;
+}
+
+.MechanicalHeading {
+  background-color: #3A5040;
+  border-radius: 9px;
+  height: 143px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.MechanicalImageHolder {
+  background-color: #7D9683;
+  border-radius: 9px;
+  height: 100%;
+  width: 154.06px;
+}
+
+.MechanicalImg {
+  margin-left: 30px;
+  margin-top: 34.3px;
+}
+
+.MechanicalText {
+  /* position: absolute;
+  width: 197px;
+  height: 39px;
+  left: 337px;
+  top: 290px; */
+
+  /* font-family: 'Poppins'; */
+  font-family: require('helvatica-neue-lt/index.css');
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  margin-left: 24.94px;
+
+  color: #FFFFFF;
+}
+
+.Services {
+  /* position: absolute; */
+  /* width: 148px;
+  height: 39px;
+  left: 166px;
+  top: 165px; */
+
+  font-family: require('helvatica-neue-lt/index.css');
+  font-style: normal;
+  /* font-weight: 400; */
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;  /* identical to box height */
+  padding-left: 8px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.MechanicalBody {
+  padding-right: 45px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 64px;
+}
+
+.ServiceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2F2F2F;
+  height: 55px;
+  margin-bottom: 17px;
+  padding-right: 13px;
+}
+
+.ServiceTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.ServiceTittleStyle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  margin-left: 20px;
+  color: #FFFFFF;
+
+  transform: rotate(0.09deg);
+}
+
+.SiteInput {
+  /* width: 301px; */
+  height: 40px;
+
+  background: #3F3F3F;
+  border-radius: 8px;
+  padding-left: 9px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #BDBDBD;
+  border-width: 0px;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
